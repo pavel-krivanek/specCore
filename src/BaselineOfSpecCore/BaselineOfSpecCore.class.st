@@ -10,8 +10,7 @@ BaselineOfSpecCore >> baseline: spec [
 	
 	| pharoRepository |
 	
-	pharoRepository := 'github://pharo-project/pharo/src'.
-	pharoRepository := 'github://pavel-krivanek/pharo:specSupport/src'.
+	pharoRepository := 'github://pharo-project/pharo:9.0/src'.
 
 	spec
 		for: #common
